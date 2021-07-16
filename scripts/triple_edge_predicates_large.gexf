@@ -1,0 +1,1733 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2021-07-16">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="predicate" type="string" />
+    </attributes>
+    <nodes>
+      <node id="ongoing global pandemic" label="ongoing global pandemic" />
+      <node id="severe acute respiratory syndrome coronaviru" label="severe acute respiratory syndrome coronaviru" />
+      <node id="coronavirus disease" label="coronavirus disease" />
+      <node id="covid19" label="covid19" />
+      <node id="( sarscov2" label="( sarscov2" />
+      <node id="virus" label="virus" />
+      <node id="wuhan" label="wuhan" />
+      <node id="china" label="china" />
+      <node id="december" label="december" />
+      <node id="measure" label="measure" />
+      <node id="other part" label="other part" />
+      <node id="mainland china" label="mainland china" />
+      <node id="world" label="world" />
+      <node id="nationwide lockdown" label="nationwide lockdown" />
+      <node id="january" label="january" />
+      <node id="pandemic" label="pandemic" />
+      <node id="11 march" label="11 march" />
+      <node id="emergency" label="emergency" />
+      <node id="world health organization" label="world health organization" />
+      <node id="international concern" label="international concern" />
+      <node id="30 january" label="30 january" />
+      <node id="more than 188 million case" label="more than 188 million case" />
+      <node id="more than 4.06 million confirm death" label="more than 4.06 million confirm death" />
+      <node id="16 july" label="16 july" />
+      <node id="deadly pandemic" label="deadly pandemic" />
+      <node id="history" label="history" />
+      <node id="severity" label="severity" />
+      <node id="covid19 symptom" label="covid19 symptom" />
+      <node id="severe illness" label="severe illness" />
+      <node id="certain underlie medical condition" label="certain underlie medical condition" />
+      <node id="elderly covid19 patient" label="elderly covid19 patient" />
+      <node id="droplet" label="droplet" />
+      <node id="small airborne particle" label="small airborne particle" />
+      <node id="people" label="people" />
+      <node id="air" label="air" />
+      <node id="risk" label="risk" />
+      <node id="proximity" label="proximity" />
+      <node id="long distance" label="long distance" />
+      <node id="particularly indoor" label="particularly indoor" />
+      <node id="nose" label="nose" />
+      <node id="mouth" label="mouth" />
+      <node id="transmission" label="transmission" />
+      <node id="eye" label="eye" />
+      <node id="contaminate fluid" label="contaminate fluid" />
+      <node id="contaminate surface" label="contaminate surface" />
+      <node id="symptom" label="symptom" />
+      <node id="up to 20 day" label="up to 20 day" />
+      <node id="disinfecting" label="disinfecting" />
+      <node id="monitoring" label="monitoring" />
+      <node id="ventilation" label="ventilation" />
+      <node id="filtering" label="filtering" />
+      <node id="public" label="public" />
+      <node id="washing" label="washing" />
+      <node id="face mask" label="face mask" />
+      <node id="recommend preventive measure" label="recommend preventive measure" />
+      <node id="surface" label="surface" />
+      <node id="social distancing" label="social distancing" />
+      <node id="several vaccine" label="several vaccine" />
+      <node id="most develop country" label="most develop country" />
+      <node id="medication" label="medication" />
+      <node id="current treatment" label="current treatment" />
+      <node id="work" label="work" />
+      <node id="travel restriction" label="travel restriction" />
+      <node id="lockdown" label="lockdown" />
+      <node id="workplace hazard control" label="workplace hazard control" />
+      <node id="business closure" label="business closure" />
+      <node id="authority" label="authority" />
+      <node id="quarantine" label="quarantine" />
+      <node id="trace" label="trace" />
+      <node id="contact" label="contact" />
+      <node id="numerous jurisdiction" label="numerous jurisdiction" />
+      <node id="testing capacity" label="testing capacity" />
+      <node id="great depression" label="great depression" />
+      <node id="1930" label="1930" />
+      <node id="severe global , social and economic disruption" label="severe global , social and economic disruption" />
+      <node id="large global recession" label="large global recession" />
+      <node id="agricultural disruption" label="agricultural disruption" />
+      <node id="food shortage" label="food shortage" />
+      <node id="widespread supply shortage" label="widespread supply shortage" />
+      <node id="panic buying" label="panic buying" />
+      <node id="misinformation" label="misinformation" />
+      <node id="social medium" label="social medium" />
+      <node id="issue" label="issue" />
+      <node id="balance" label="balance" />
+      <node id="public health imperative" label="public health imperative" />
+      <node id="racial and geographic discrimination" label="racial and geographic discrimination" />
+      <node id="individual right" label="individual right" />
+      <node id="health equity" label="health equity" />
+      <node id="wealth inequality" label="wealth inequality" />
+      <node id="first outbreak" label="first outbreak" />
+      <node id="hubei" label="hubei" />
+      <node id="exact origin" label="exact origin" />
+      <node id="many early case" label="many early case" />
+      <node id="human" label="human" />
+      <node id="huanan seafood wholesale market" label="huanan seafood wholesale market" />
+      <node id="11 february" label="11 february" />
+      <node id="disease" label="disease" />
+      <node id="who" label="who" />
+      <node id="newly discover virus" label="newly discover virus" />
+      <node id="bat coronaviruse" label="bat coronaviruse" />
+      <node id="outbreak" label="outbreak" />
+      <node id="current scientific consensus" label="current scientific consensus" />
+      <node id="zoonotic origin" label="zoonotic origin" />
+      <node id="bat" label="bat" />
+      <node id="closely - relate mammal" label="closely - relate mammal" />
+      <node id="speculation and conspiracy theory" label="speculation and conspiracy theory" />
+      <node id="subject" label="subject" />
+      <node id="significant amount" label="significant amount" />
+      <node id="rapidly grow online echo chamber" label="rapidly grow online echo chamber" />
+      <node id="global geopolitical division" label="global geopolitical division" />
+      <node id="united states" label="united states" />
+      <node id="early know person" label="early know person" />
+      <node id="visible connection" label="visible connection" />
+      <node id="person" label="person" />
+      <node id="1 december" label="1 december" />
+      <node id="later wet market cluster" label="later wet market cluster" />
+      <node id="early case" label="early case" />
+      <node id="17 november" label="17 november" />
+      <node id="infection" label="infection" />
+      <node id="two - third" label="two - third" />
+      <node id="link" label="link" />
+      <node id="market" label="market" />
+      <node id="index case" label="index case" />
+      <node id="molecular clock analysis" label="molecular clock analysis" />
+      <node id="mid - october" label="mid - october" />
+      <node id="test" label="test" />
+      <node id="official protocol" label="official protocol" />
+      <node id="official case" label="official case" />
+      <node id="refer" label="refer" />
+      <node id="number" label="number" />
+      <node id="many country" label="many country" />
+      <node id="official policy" label="official policy" />
+      <node id="only mild symptom" label="only mild symptom" />
+      <node id="early phase" label="early phase" />
+      <node id="analysis" label="analysis" />
+      <node id="source" label="source" />
+      <node id="up to 23 january" label="up to 23 january" />
+      <node id="86 %" label="86 %" />
+      <node id="79 %" label="79 %" />
+      <node id="document case" label="document case" />
+      <node id="covid19 infection" label="covid19 infection" />
+      <node id="undocumented infection" label="undocumented infection" />
+      <node id="several other study" label="several other study" />
+      <node id="report case" label="report case" />
+      <node id="variety" label="variety" />
+      <node id="method" label="method" />
+      <node id="preliminary result" label="preliminary result" />
+      <node id="antibody" label="antibody" />
+      <node id="15 %" label="15 %" />
+      <node id="gangelt" label="gangelt" />
+      <node id="centre" label="centre" />
+      <node id="major infection cluster" label="major infection cluster" />
+      <node id="germany" label="germany" />
+      <node id="9 april" label="9 april" />
+      <node id="blood donor" label="blood donor" />
+      <node id="netherlands" label="netherlands" />
+      <node id="pregnant woman" label="pregnant woman" />
+      <node id="new york city" label="new york city" />
+      <node id="rate" label="rate" />
+      <node id="positive antibody test" label="positive antibody test" />
+      <node id="more infection" label="more infection" />
+      <node id="detectable antibody" label="detectable antibody" />
+      <node id="seroprevalence base estimate" label="seroprevalence base estimate" />
+      <node id="study" label="study" />
+      <node id="mild symptom" label="mild symptom" />
+      <node id="result" label="result" />
+      <node id="substantial press coverage" label="substantial press coverage" />
+      <node id="peer review" label="peer review" />
+      <node id="gangelt study" label="gangelt study" />
+      <node id="age" label="age" />
+      <node id="relatively low proportion" label="relatively low proportion" />
+      <node id="case" label="case" />
+      <node id="individual" label="individual" />
+      <node id="young people" label="young people" />
+      <node id="serious symptom" label="serious symptom" />
+      <node id="medical attention" label="medical attention" />
+      <node id="retrospective cohort study" label="retrospective cohort study" />
+      <node id="child" label="child" />
+      <node id="adult" label="adult" />
+      <node id="basic reproduction number" label="basic reproduction number" />
+      <node id="r0" label="r0" />
+      <node id="initial estimate" label="initial estimate" />
+      <node id="subsequent analysis" label="subsequent analysis" />
+      <node id="95 % confidence interval" label="95 % confidence interval" />
+      <node id="account effect" label="account effect" />
+      <node id="herd immunity" label="herd immunity" />
+      <node id="effective reproduction number" label="effective reproduction number" />
+      <node id="population" label="population" />
+      <node id="effective r" label="effective r" />
+      <node id="spread" label="spread" />
+      <node id="time" label="time" />
+      <node id="area" label="area" />
+      <node id="mid - may" label="mid - may" />
+      <node id="official death" label="official death" />
+      <node id="protocol" label="protocol" />
+      <node id="count" label="count" />
+      <node id="death" label="death" />
+      <node id="underlie condition" label="underlie condition" />
+      <node id="over - counting" label="over - counting" />
+      <node id="comparison" label="comparison" />
+      <node id="excess mortality" label="excess mortality" />
+      <node id="statistic" label="statistic" />
+      <node id="cause" label="cause" />
+      <node id="seasonal average" label="seasonal average" />
+      <node id="first confirm death" label="first confirm death" />
+      <node id="9 january" label="9 january" />
+      <node id="first report death" label="first report death" />
+      <node id="asia" label="asia" />
+      <node id="philippines" label="philippines" />
+      <node id="6 february" label="6 february" />
+      <node id="1 february" label="1 february" />
+      <node id="more than 95 %" label="more than 95 %" />
+      <node id="recover" label="recover" />
+      <node id="6 to 41 day" label="6 to 41 day" />
+      <node id="symptom onset" label="symptom onset" />
+      <node id="more than 4.06 million death" label="more than 4.06 million death" />
+      <node id="underlying condition" label="underlying condition" />
+      <node id="severe obesity" label="severe obesity" />
+      <node id="weaken immune system" label="weaken immune system" />
+      <node id="great risk" label="great risk" />
+      <node id="mortality" label="mortality" />
+      <node id="serious heart" label="serious heart" />
+      <node id="lung problem" label="lung problem" />
+      <node id="multiple measure" label="multiple measure" />
+      <node id="testing" label="testing" />
+      <node id="sex" label="sex" />
+      <node id="volume" label="volume" />
+      <node id="healthcare system quality" label="healthcare system quality" />
+      <node id="initial outbreak" label="initial outbreak" />
+      <node id="region" label="region" />
+      <node id="treatment option" label="treatment option" />
+      <node id="government response" label="government response" />
+      <node id="overall health" label="overall health" />
+      <node id="characteristic" label="characteristic" />
+      <node id="country" label="country" />
+      <node id="only test - confirm case" label="only test - confirm case" />
+      <node id="suspect case" label="suspect case" />
+      <node id="belgium" label="belgium" />
+      <node id="high number" label="high number" />
+      <node id="give time interval" label="give time interval" />
+      <node id="ratio" label="ratio" />
+      <node id="diagnose case" label="diagnose case" />
+      <node id="2.15 %" label="2.15 %" />
+      <node id="johns hopkins university statistic" label="johns hopkins university statistic" />
+      <node id="4066605 death" label="4066605 death" />
+      <node id="188928123 case" label="188928123 case" />
+      <node id="increase" label="increase" />
+      <node id="death rate" label="death rate" />
+      <node id="official death count" label="official death count" />
+      <node id="actual death toll" label="actual death toll" />
+      <node id="range" label="range" />
+      <node id="institute" label="institute" />
+      <node id="the economist" label="the economist" />
+      <node id="estimate" label="estimate" />
+      <node id="true number" label="true number" />
+      <node id="health metrics" label="health metrics" />
+      <node id="evaluation" label="evaluation" />
+      <node id="such datum" label="such datum" />
+    </nodes>
+    <edges>
+      <edge id="0" source="ongoing global pandemic" target="severe acute respiratory syndrome coronaviru">
+        <attvalues>
+          <attvalue for="0" value="cause" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="ongoing global pandemic" target="coronavirus disease">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="severe acute respiratory syndrome coronaviru" target="( sarscov2">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="severe acute respiratory syndrome coronaviru" target="newly discover virus">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="coronavirus disease" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="virus" target="wuhan">
+        <attvalues>
+          <attvalue for="0" value="identify" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="virus" target="december">
+        <attvalues>
+          <attvalue for="0" value="identify" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="virus" target="emergency">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="virus" target="zoonotic origin">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="virus" target="bat">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="wuhan" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="wuhan" target="hubei">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="china" target="virus">
+        <attvalues>
+          <attvalue for="0" value="contain" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="china" target="other part">
+        <attvalues>
+          <attvalue for="0" value="spread" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="china" target="world">
+        <attvalues>
+          <attvalue for="0" value="fail" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="china" target="nationwide lockdown">
+        <attvalues>
+          <attvalue for="0" value="implement" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="china" target="january">
+        <attvalues>
+          <attvalue for="0" value="implement" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="measure" target="virus">
+        <attvalues>
+          <attvalue for="0" value="contain" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="measure" target="other part">
+        <attvalues>
+          <attvalue for="0" value="spread" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="measure" target="world">
+        <attvalues>
+          <attvalue for="0" value="fail" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="other part" target="mainland china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="nationwide lockdown" target="wuhan">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="pandemic" target="11 march">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="pandemic" target="severe global , social and economic disruption">
+        <attvalues>
+          <attvalue for="0" value="result" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="pandemic" target="issue">
+        <attvalues>
+          <attvalue for="0" value="raise" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="emergency" target="international concern">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="emergency" target="30 january">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="emergency" target="pandemic">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="world health organization" target="emergency">
+        <attvalues>
+          <attvalue for="0" value="declare" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="world health organization" target="11 february">
+        <attvalues>
+          <attvalue for="0" value="name" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="world health organization" target="disease">
+        <attvalues>
+          <attvalue for="0" value="name" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="world health organization" target="who">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="more than 188 million case" target="more than 4.06 million confirm death">
+        <attvalues>
+          <attvalue for="0" value="confirm" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="more than 188 million case" target="16 july">
+        <attvalues>
+          <attvalue for="0" value="confirm" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="more than 188 million case" target="deadly pandemic">
+        <attvalues>
+          <attvalue for="0" value="make" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="more than 4.06 million confirm death" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="deadly pandemic" target="history">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="severity" target="covid19 symptom">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="severe illness" target="certain underlie medical condition">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="severe illness" target="elderly covid19 patient">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="droplet" target="small airborne particle">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="people" target="air">
+        <attvalues>
+          <attvalue for="0" value="breathe" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="people" target="droplet">
+        <attvalues>
+          <attvalue for="0" value="contaminate" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="people" target="proximity">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="people" target="symptom">
+        <attvalues>
+          <attvalue for="0" value="develop" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="people" target="virus">
+        <attvalues>
+          <attvalue for="0" value="spread" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="people" target="up to 20 day">
+        <attvalues>
+          <attvalue for="0" value="remain" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="people" target="gangelt">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="people" target="protocol">
+        <attvalues>
+          <attvalue for="0" value="accord" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="people" target="underlying condition">
+        <attvalues>
+          <attvalue for="0" value="tend" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="people" target="great risk">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="risk" target="proximity">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="risk" target="long distance">
+        <attvalues>
+          <attvalue for="0" value="inhale" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="long distance" target="particularly indoor">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="nose" target="mouth">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="transmission" target="eye">
+        <attvalues>
+          <attvalue for="0" value="splash" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="transmission" target="contaminate fluid">
+        <attvalues>
+          <attvalue for="0" value="spray" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="transmission" target="contaminate surface">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="transmission" target="human">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="eye" target="nose">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="disinfecting" target="monitoring">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="disinfecting" target="surface">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="monitoring" target="people">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="ventilation" target="filtering">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="public" target="washing">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="public" target="ventilation">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="face mask" target="public">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="recommend preventive measure" target="face mask">
+        <attvalues>
+          <attvalue for="0" value="wear" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="recommend preventive measure" target="mouth">
+        <attvalues>
+          <attvalue for="0" value="cover" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="recommend preventive measure" target="disinfecting">
+        <attvalues>
+          <attvalue for="0" value="sneeze" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="recommend preventive measure" target="social distancing">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="social distancing" target="herd immunity">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="several vaccine" target="december">
+        <attvalues>
+          <attvalue for="0" value="distribute" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="several vaccine" target="most develop country">
+        <attvalues>
+          <attvalue for="0" value="distribute" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="medication" target="virus">
+        <attvalues>
+          <attvalue for="0" value="inhibit" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="current treatment" target="symptom">
+        <attvalues>
+          <attvalue for="0" value="address" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="current treatment" target="medication">
+        <attvalues>
+          <attvalue for="0" value="develop" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="work" target="medication">
+        <attvalues>
+          <attvalue for="0" value="develop" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="travel restriction" target="lockdown">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="lockdown" target="workplace hazard control">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="lockdown" target="quarantine">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="workplace hazard control" target="business closure">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="authority" target="travel restriction">
+        <attvalues>
+          <attvalue for="0" value="implement" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="trace" target="contact">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="numerous jurisdiction" target="trace">
+        <attvalues>
+          <attvalue for="0" value="increase" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="numerous jurisdiction" target="testing capacity">
+        <attvalues>
+          <attvalue for="0" value="increase" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="great depression" target="1930">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="severe global , social and economic disruption" target="large global recession">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="large global recession" target="great depression">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="agricultural disruption" target="food shortage">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="widespread supply shortage" target="panic buying">
+        <attvalues>
+          <attvalue for="0" value="exacerbate" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="panic buying" target="agricultural disruption">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="misinformation" target="social medium">
+        <attvalues>
+          <attvalue for="0" value="circulate" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="issue" target="racial and geographic discrimination">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="balance" target="public health imperative">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="public health imperative" target="individual right">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="racial and geographic discrimination" target="health equity">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="health equity" target="wealth inequality">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="wealth inequality" target="balance">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="first outbreak" target="wuhan">
+        <attvalues>
+          <attvalue for="0" value="start" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="first outbreak" target="exact origin">
+        <attvalues>
+          <attvalue for="0" value="start" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="hubei" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="exact origin" target="virus">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="many early case" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="many early case" target="transmission">
+        <attvalues>
+          <attvalue for="0" value="happen" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="many early case" target="people">
+        <attvalues>
+          <attvalue for="0" value="link" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="many early case" target="huanan seafood wholesale market">
+        <attvalues>
+          <attvalue for="0" value="visit" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="huanan seafood wholesale market" target="wuhan">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="disease" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="newly discover virus" target="bat coronaviruse">
+        <attvalues>
+          <attvalue for="0" value="relate" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="outbreak" target="severe acute respiratory syndrome coronaviru">
+        <attvalues>
+          <attvalue for="0" value="know" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="current scientific consensus" target="zoonotic origin">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="current scientific consensus" target="bat">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="bat" target="closely - relate mammal">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="speculation and conspiracy theory" target="speculation and conspiracy theory">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="speculation and conspiracy theory" target="rapidly grow online echo chamber">
+        <attvalues>
+          <attvalue for="0" value="amplify" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="subject" target="significant amount">
+        <attvalues>
+          <attvalue for="0" value="generate" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="significant amount" target="speculation and conspiracy theory">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="global geopolitical division" target="united states">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="global geopolitical division" target="issue">
+        <attvalues>
+          <attvalue for="0" value="heighten" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="united states" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="early know person" target="visible connection">
+        <attvalues>
+          <attvalue for="0" value="discover" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="early know person" target="1 december">
+        <attvalues>
+          <attvalue for="0" value="fall" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="early know person" target="symptom">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="visible connection" target="later wet market cluster">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="person" target="visible connection">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="person" target="detectable antibody">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="person" target="mild symptom">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="early case" target="17 november">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="early case" target="infection">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="infection" target="many country">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="two - third" target="link">
+        <attvalues>
+          <attvalue for="0" value="find" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="link" target="market">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="index case" target="virus">
+        <attvalues>
+          <attvalue for="0" value="infect" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="index case" target="mid - october">
+        <attvalues>
+          <attvalue for="0" value="infect" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="molecular clock analysis" target="mid - october">
+        <attvalues>
+          <attvalue for="0" value="infect" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="molecular clock analysis" target="virus">
+        <attvalues>
+          <attvalue for="0" value="infect" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="test" target="official protocol">
+        <attvalues>
+          <attvalue for="0" value="accord" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="official case" target="refer">
+        <attvalues>
+          <attvalue for="0" value="count" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="official case" target="official protocol">
+        <attvalues>
+          <attvalue for="0" value="accord" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="official case" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="refer" target="number">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="number" target="people">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="number" target="report case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="number" target="infection">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="number" target="testing">
+        <attvalues>
+          <attvalue for="0" value="influence" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="number" target="time">
+        <attvalues>
+          <attvalue for="0" value="vary" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="number" target="region">
+        <attvalues>
+          <attvalue for="0" value="vary" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="number" target="characteristic">
+        <attvalues>
+          <attvalue for="0" value="influence" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="number" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="number" target="diagnose case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="many country" target="official policy">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="many country" target="only mild symptom">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="early phase" target="outbreak">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="analysis" target="source">
+        <attvalues>
+          <attvalue for="0" value="detect" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="analysis" target="86 %">
+        <attvalues>
+          <attvalue for="0" value="detect" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="analysis" target="early phase">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="analysis" target="age">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="analysis" target="relatively low proportion">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="analysis" target="individual">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="analysis" target="case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="source" target="79 %">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="up to 23 january" target="source">
+        <attvalues>
+          <attvalue for="0" value="detect" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="up to 23 january" target="analysis">
+        <attvalues>
+          <attvalue for="0" value="estimate" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="up to 23 january" target="86 %">
+        <attvalues>
+          <attvalue for="0" value="detect" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="86 %" target="source">
+        <attvalues>
+          <attvalue for="0" value="detect" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="86 %" target="covid19 infection">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="79 %" target="document case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="undocumented infection" target="source">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="several other study" target="report case">
+        <attvalues>
+          <attvalue for="0" value="estimate" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="several other study" target="variety">
+        <attvalues>
+          <attvalue for="0" value="use" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="several other study" target="number">
+        <attvalues>
+          <attvalue for="0" value="estimate" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="variety" target="method">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="preliminary result" target="antibody">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="preliminary result" target="15 %">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="preliminary result" target="9 april">
+        <attvalues>
+          <attvalue for="0" value="find" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="15 %" target="people">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="15 %" target="antibody">
+        <attvalues>
+          <attvalue for="0" value="test" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="gangelt" target="centre">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="centre" target="major infection cluster">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="major infection cluster" target="germany">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="blood donor" target="netherlands">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="pregnant woman" target="new york city">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="rate" target="positive antibody test">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="positive antibody test" target="more infection">
+        <attvalues>
+          <attvalue for="0" value="indicate" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="seroprevalence base estimate" target="person">
+        <attvalues>
+          <attvalue for="0" value="show" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="seroprevalence base estimate" target="detectable antibody">
+        <attvalues>
+          <attvalue for="0" value="show" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="study" target="detectable antibody">
+        <attvalues>
+          <attvalue for="0" value="show" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="study" target="person">
+        <attvalues>
+          <attvalue for="0" value="show" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="result" target="substantial press coverage">
+        <attvalues>
+          <attvalue for="0" value="receive" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="result" target="peer review">
+        <attvalues>
+          <attvalue for="0" value="pass" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="result" target="gangelt study">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="age" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="age" target="sex">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="relatively low proportion" target="case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="relatively low proportion" target="individual">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="young people" target="serious symptom">
+        <attvalues>
+          <attvalue for="0" value="develop" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="young people" target="medical attention">
+        <attvalues>
+          <attvalue for="0" value="seek" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="retrospective cohort study" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="child" target="adult">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="basic reproduction number" target="january">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="basic reproduction number" target="r0">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="basic reproduction number" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="r0" target="effective reproduction number">
+        <attvalues>
+          <attvalue for="0" value="confuse" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="r0" target="population">
+        <attvalues>
+          <attvalue for="0" value="vary" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="initial estimate" target="basic reproduction number">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="initial estimate" target="95 % confidence interval">
+        <attvalues>
+          <attvalue for="0" value="conclude" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="subsequent analysis" target="95 % confidence interval">
+        <attvalues>
+          <attvalue for="0" value="conclude" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="account effect" target="social distancing">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="effective reproduction number" target="account effect">
+        <attvalues>
+          <attvalue for="0" value="take" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="effective r" target="spread">
+        <attvalues>
+          <attvalue for="0" value="mean" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="effective r" target="many country">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="effective r" target="mid - may">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="spread" target="time">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="spread" target="area">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="spread" target="disease">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="time" target="6 to 41 day">
+        <attvalues>
+          <attvalue for="0" value="range" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="time" target="symptom onset">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="time" target="initial outbreak">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="official death" target="people">
+        <attvalues>
+          <attvalue for="0" value="refer" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="official death" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="count" target="death">
+        <attvalues>
+          <attvalue for="0" value="ignore" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="death" target="people">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="death" target="underlie condition">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="death" target="over - counting">
+        <attvalues>
+          <attvalue for="0" value="lead" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="death" target="cause">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="death" target="suspect case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="death" target="case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="death" target="give time interval">
+        <attvalues>
+          <attvalue for="0" value="divide" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="death" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="death" target="number">
+        <attvalues>
+          <attvalue for="0" value="divide" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="comparison" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="comparison" target="excess mortality">
+        <attvalues>
+          <attvalue for="0" value="indicate" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="comparison" target="statistic">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="comparison" target="death rate">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="comparison" target="increase">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="excess mortality" target="many country">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="seasonal average" target="excess mortality">
+        <attvalues>
+          <attvalue for="0" value="indicate" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="seasonal average" target="comparison">
+        <attvalues>
+          <attvalue for="0" value="indicate" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="first confirm death" target="9 january">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="first confirm death" target="wuhan">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="first report death" target="china">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="first report death" target="united states">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="243" source="first report death" target="asia">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="244" source="first report death" target="philippines">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="245" source="first report death" target="6 february">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="246" source="first report death" target="1 february">
+        <attvalues>
+          <attvalue for="0" value="occur" />
+        </attvalues>
+      </edge>
+      <edge id="247" source="more than 95 %" target="recover">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="248" source="recover" target="more than 95 %">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="249" source="symptom onset" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="250" source="more than 4.06 million death" target="16 july">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </edge>
+      <edge id="251" source="more than 4.06 million death" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </edge>
+      <edge id="252" source="underlying condition" target="weaken immune system">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="253" source="severe obesity" target="individual">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="254" source="weaken immune system" target="severe obesity">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="255" source="weaken immune system" target="serious heart">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="256" source="great risk" target="mortality">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="257" source="mortality" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="258" source="serious heart" target="lung problem">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="259" source="multiple measure" target="mortality">
+        <attvalues>
+          <attvalue for="0" value="quantify" />
+        </attvalues>
+      </edge>
+      <edge id="260" source="testing" target="volume">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="261" source="sex" target="overall health">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="262" source="volume" target="healthcare system quality">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="263" source="healthcare system quality" target="treatment option">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="264" source="treatment option" target="government response">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="265" source="characteristic" target="age">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="266" source="country" target="only test - confirm case">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="267" source="country" target="country">
+        <attvalues>
+          <attvalue for="0" value="compare" />
+        </attvalues>
+      </edge>
+      <edge id="268" source="country" target="death">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="269" source="country" target="belgium">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="270" source="country" target="high number">
+        <attvalues>
+          <attvalue for="0" value="result" />
+        </attvalues>
+      </edge>
+      <edge id="271" source="suspect case" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="272" source="ratio" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="273" source="ratio" target="number">
+        <attvalues>
+          <attvalue for="0" value="reflect" />
+        </attvalues>
+      </edge>
+      <edge id="274" source="ratio" target="2.15 %">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="275" source="ratio" target="16 july">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="276" source="ratio" target="johns hopkins university statistic">
+        <attvalues>
+          <attvalue for="0" value="base" />
+        </attvalues>
+      </edge>
+      <edge id="277" source="2.15 %" target="4066605 death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="278" source="4066605 death" target="188928123 case">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="279" source="increase" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="280" source="increase" target="comparison">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="281" source="official death count" target="increase">
+        <attvalues>
+          <attvalue for="0" value="criticise" />
+        </attvalues>
+      </edge>
+      <edge id="282" source="official death count" target="actual death toll">
+        <attvalues>
+          <attvalue for="0" value="underreporte" />
+        </attvalues>
+      </edge>
+      <edge id="283" source="range" target="institute">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="284" source="range" target="the economist">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="285" source="institute" target="health metrics">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="286" source="estimate" target="true number">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="287" source="estimate" target="range">
+        <attvalues>
+          <attvalue for="0" value="include" />
+        </attvalues>
+      </edge>
+      <edge id="288" source="estimate" target="such datum">
+        <attvalues>
+          <attvalue for="0" value="use" />
+        </attvalues>
+      </edge>
+      <edge id="289" source="true number" target="death">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="290" source="true number" target="covid19">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+      <edge id="291" source="health metrics" target="evaluation">
+        <attvalues>
+          <attvalue for="0" value="None" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,1 +1,0 @@
-from . import semantic_triples
