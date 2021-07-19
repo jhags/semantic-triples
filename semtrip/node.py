@@ -4,33 +4,39 @@ class Node:
 
     def __init__(self, spacy_obj):
         self.span = spacy_obj
-
-        # if isinstance(spacy_obj, spacy.tokens.span.Span):
-        #     self.root = spacy_obj.root.lemma_
-        #     self.text = ' '.join([t.lemma_.lower() for t in spacy_obj if t.pos_ not in ['DET']])
-        #     self.idx = (spacy_obj.start_char, spacy_obj.end_char)
-
-        if isinstance(spacy_obj, spacy.tokens.token.Token):
-            self.phrase = self._get_full_phrase(spacy_obj)
-            self.root = spacy_obj.text.lower()
-            self.text = spacy_obj.lemma_.lower()
-            self.idx = (spacy_obj.idx, spacy_obj.idx + len(spacy_obj.text))
-
-        elif spacy_obj is None:
-            self.root = ''
-            self.phrase = None
-            self.text = None
-            self.idx = False
+        self._type = self._get_type()
+        self._is_ent = self._check_is_ent()
+        self.text = self._get_text()
 
     def __repr__(self):
-        return self.text
+        return str(self.text)
 
-    @staticmethod
-    def _get_full_phrase(spacy_token):
-        doc = spacy_token.doc
-        start_idx = spacy_token.idx
-        chunk = [i for i in doc.noun_chunks if (i.start_char <= start_idx <= i.end_char)]
-        if len(chunk)>0:
-            return ' '.join([t.lemma_.lower() for t in chunk[0] if t.pos_ not in ['DET']])
-            # return Node(chunk[0])
-        return spacy_token.lemma_.lower()
+    def _get_type(self):
+        if isinstance(self.span, spacy.tokens.span.Span):
+            return 'span'
+        elif isinstance(self.span, spacy.tokens.token.Token):
+            return 'token'
+        else:
+            return None
+
+    def _check_is_ent(self):
+        if self._type=='span':
+            if len(self.span.ents)>0:
+                if self.span.text==self.span.ents[0].text:
+                    return True
+        return False
+
+    def _get_text(self):
+        if self._type=='span':
+            if self._is_ent:
+                return ' '.join([t.text.lower() for t in self.span if t.pos_ not in ['DET']])
+            elif self._is_ent is False:
+                return ' '.join([t.lemma_.lower() for t in self.span if t.pos_ not in ['DET']])
+
+        elif self._type=='token':
+            if self._is_ent:
+                return self.span.text.lower()
+            elif self._is_ent is False:
+                return self.span.lemma_.lower()
+
+        return None

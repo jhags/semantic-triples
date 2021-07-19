@@ -9,6 +9,7 @@ from typing import TypeVar
 from .triple import Triple
 
 spacyToken = TypeVar('spacy.tokens.token.Token')
+spacySpan = TypeVar('spacy.tokens.span.Span')
 
 root = os.path.abspath(os.path.join(__file__, "../.."))
 
@@ -108,6 +109,31 @@ def get_objects(predicate: spacyToken):
 #     return triples
 
 
+def get_chunk(token):
+    chunks = [c for c in token.doc.noun_chunks if token in c]
+    if len(chunks)==0: return token
+    return chunks[0]
+
+def get_max_chunk(token):
+    if token is None:
+        return None
+
+    ent_idxs = [(i, (i.start_char, i.end_char)) for i in token.doc.ents]
+    chunk_idxs = [(i, (i.start_char, i.end_char)) for i in token.doc.noun_chunks]
+
+    for chunk_idx in chunk_idxs:
+        for ent_idx in ent_idxs:
+            if (token in ent_idx[0]) or (token in chunk_idx[0]):
+                a = set(range(*ent_idx[1]))
+                b = set(range(*chunk_idx[1]))
+                if len(a.intersection(b))>0:
+                    min_idx = min(min(ent_idx[1]), min(chunk_idx[1]))
+                    max_idx = max(max(ent_idx[1]), max(chunk_idx[1]))
+                    return token.doc.char_span(min_idx, max_idx)
+
+    return get_chunk(token)
+
+
 def subject_propagate_triples(doc):
 
     subjs = []
@@ -187,6 +213,33 @@ def subject_propagate_triples(doc):
                     triples.append((p[0], predicate[-1], p[-1]))
 
     triples = [(s, p, o) for (s, p, o) in triples if (s.text!=o.text)]
+
+    new_triples = []
+    for triple in triples:
+        new_triple = []
+        for token in triple:
+
+            if token is None:
+                new_triple.append(token)
+
+            else:
+                is_ent = False
+                max_chunk = get_max_chunk(token)
+                if isinstance(max_chunk, spacy.tokens.span.Span):
+                    if len(max_chunk.ents)>0:
+                        if max_chunk.text==max_chunk.ents[0].text:
+                            is_ent = True
+
+                if is_ent:
+                    new_triple.append(max_chunk)
+                else:
+                    new_triple.append(token)
+                    if token.text!=max_chunk.text:
+                        new_triples.append((token, None, max_chunk))
+        new_triples.append(new_triple)
+
+    triples = [(s, p, o) for (s, p, o) in new_triples if (s.text!=o.text)]
+
     return list(set(triples))
 
 
@@ -268,4 +321,9 @@ def get_triples(doc, subject_propagate=True, object_propagate=True):
         elif len(trp)==2:
             t.append(Triple(trp[0], None, trp[1]))
     # print(t)
+
+    for idx, trp in enumerate(t):
+        if trp.subj.text==trp.obj.text:
+            t.pop(idx)
+
     return t

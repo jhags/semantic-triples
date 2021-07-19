@@ -70,14 +70,84 @@ triples = []
 for sent in docs:
     # print(sent)
     # displacy.render(sent)
-    trips = get_triples(sent, subject_propagate=True, object_propagate=False)
-    triples.extend(trips)
+    triples.extend(subject_propagate_triples(sent))
+    # trips = get_triples(sent, subject_propagate=True, object_propagate=False)
+    # triples.extend(trips)
 
 g = nx.DiGraph()
 for trp in triples:
     if (trp.subj.phrase is not None) & (trp.obj.phrase is not None):
         g.add_edge(trp.subj.phrase, trp.obj.phrase, predicate=str(trp.predicate.phrase))
 nx.write_gexf(g, 'triple_edge_predicates_large.gexf')
+
+doc = nlp("As of 16 July 2021, more than 188 million cases have been confirmed, with more than 4.06 million confirmed deaths attributed to COVID19, making one of the deadliest pandemics in history.")
+doc = nlp("Global geopolitical divisions, notably between the United States and China, have been heightened because of this issue.")
+doc = nlp("Nevertheless, the first reported death outside of China occurred on 1 February 2020 in the Philippines, and the first reported death outside Asia was in the United States on 6 February 2020.")
+displacy.render(doc, style='dep')
+list(doc.noun_chunks)
+list(doc.ents)
+
+nc = list(doc.noun_chunks)[0]
+get_chunk_and_entity_shared_by_token(nc.root)
+
+
+
+# get_triples(doc, object_propagate=False)
+
+
+
+def get_parent_chunk(token):
+    chunks = [c for c in token.doc.noun_chunks if token in c]
+    if len(chunks)==0: return None
+    return chunks[0]
+
+def get_parent_entity(token):
+    ents = [e for e in token.doc.ents if token in e]
+    if len(ents)==0: return None
+    return ents[0]
+
+def get_chunk_and_entity_shared_by_token(token):
+    if token is None:
+        return None
+
+    ent_idxs = [(i, (i.start_char, i.end_char)) for i in token.doc.ents]
+    chunk_idxs = [(i, (i.start_char, i.end_char)) for i in token.doc.noun_chunks]
+
+    for chunk_idx in chunk_idxs:
+        for ent_idx in ent_idxs:
+            if (token in ent_idx[0]) or (token in chunk_idx[0]):
+                a = set(range(*ent_idx[1]))
+                b = set(range(*chunk_idx[1]))
+                if len(a.intersection(b))>0:
+                    return chunk_idx[0], ent_idx[0]
+    return None
+
+def get_node_tokens(token):
+    if token is None:
+        return None
+
+    ent = get_parent_entity(token)
+    if ent is not None:
+        return (ent)
+
+    chunk_ent = get_chunk_and_entity_shared_by_token(token)
+    if chunk_ent is not None:
+        chunk, ent = chunk_ent
+        # c = set(range(chunk[0], chunk[1]+1))
+        # e = set(range(ent[0], ent[1]+1))
+        # n = c - e
+        primary = nlp(' '.join([t.text for t in chunk if (t not in ent)])) #token.doc.char_span(min(n), max(n))
+        secondary = ent #token.doc.char_span(min(e), max(e))
+        return (primary, secondary)
+
+    chunk = get_parent_chunk(token)
+    if chunk is not None:
+        return (chunk)
+
+    return (token)
+
+
+
 
 
 # edges = []
