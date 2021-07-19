@@ -1,8 +1,6 @@
 
 import os
-import pandas as pd
 import spacy
-import string
 import networkx as nx
 from typing import TypeVar
 
@@ -10,103 +8,6 @@ from .triple import Triple
 
 spacyToken = TypeVar('spacy.tokens.token.Token')
 spacySpan = TypeVar('spacy.tokens.span.Span')
-
-root = os.path.abspath(os.path.join(__file__, "../.."))
-
-# Get Spacy language packages
-# nlp = spacy.load('en_core_web_lg')
-
-
-def get_primary_predicate(subject: spacyToken):
-    primary_predicate = subject.head
-
-    if subject.head.pos_ in ['VERB', 'ADP']:
-        if primary_predicate.pos_ in ['ADP']:
-            if primary_predicate.head.pos_ in ['VERB']:
-                primary_predicate = primary_predicate.head
-    return primary_predicate
-
-
-def get_child_dep_dict(token: spacyToken, d=None):
-    children = list(token.children)
-    children_dep = [child.dep_ for child in children]
-    if d is None:
-        d = {}
-    for dep, child in zip(children_dep, children):
-        v = d.get(dep)
-        if v is None:
-            d[dep] = [child]
-        else:
-            v.append(child)
-    return d
-
-
-def get_secondary_predicates(primary_predicate: spacyToken):
-    dep_dict = get_child_dep_dict(primary_predicate)
-    deps = ['conj', 'advcl']
-    tokens = []
-    for dep in deps:
-        token = dep_dict.get(dep, [])
-        tokens.extend(token)
-    return tokens
-
-
-def get_objects(predicate: spacyToken):
-    d = get_child_dep_dict(predicate)
-    deps = ['pobj', 'dobj', 'attr', 'ccomp', 'appos']
-    lvl2_dep = ['prep', 'agent', 'relcl', 'acl', 'amod', 'conj']
-    tokens = []
-    for dep, toks in d.items():
-        if dep in deps:
-            tokens.extend(toks)
-
-        elif dep in lvl2_dep:
-            for tok in toks:
-                t = get_objects(tok)
-                tokens.extend(t)
-    return tokens
-
-
-# def subject_propagate_triples(doc):
-#     subjects = [i.root for i in doc.noun_chunks if i.root.dep_ in ['nsubj', 'nsubjpass']]
-#     triples = []
-#     for subject in subjects:
-
-#         primary_subject = subject
-#         primary_predicate = get_primary_predicate(primary_subject)
-#         primary_objects = get_objects(primary_predicate)
-
-#         for obj in primary_objects:
-#             triples.append((primary_subject, primary_predicate, obj))
-
-#         # Additional primary objects
-#         primary_objects = get_objects(primary_subject)
-#         for obj in primary_objects:
-#             triples.append((primary_subject, None, obj))
-
-#         # Secondary triples, where the primary subject is the same
-#         secondary_predicates = get_secondary_predicates(primary_predicate)
-#         for predicate in secondary_predicates:
-#             objs = get_objects(predicate)
-#             for obj in objs:
-#                 triples.append((primary_subject, predicate, obj))
-
-#         # 2nd level objects
-#         objs = [obj for (subj, pred, obj) in triples]
-#         for obj in objs:
-#             lvl2_objs = get_objects(obj)
-#             for obj2 in lvl2_objs:
-#                 triples.append((obj, None, obj2))
-
-#         # 3rd level objects
-#         objs = [obj for (subj, pred, obj) in triples]
-#         for obj in objs:
-#             lvl3_objs = get_objects(obj)
-#             for obj3 in lvl3_objs:
-#                 triples.append((obj, None, obj3))
-
-#     triples = list(set(triples))
-#     return triples
 
 
 def get_chunk(token):
@@ -186,7 +87,7 @@ def subject_propagate_triples(doc):
     triples = []
     for path in paths:
         # path = paths[-6]
-        path = [t for t in path if (t.pos_ in ['NOUN', 'PROPN', 'VERB'])]
+        path = [t for t in path if (t.pos_ in ['NOUN', 'PROPN', 'VERB', 'ADP', 'AUX'])]
         path_pos = [t.pos_ for t in path]
         path_pos = list(map(pos_map.get, path_pos, path_pos))
 
@@ -207,10 +108,14 @@ def subject_propagate_triples(doc):
             for i1, i2 in [(noun_idxs[i], noun_idxs[i+1]) for i in range(len(noun_idxs)-1)]:
                 subpaths.append(path[i1: i2+1])
 
+            primary_predicates = [] #verbs
+            secondary_predicates = [] # ADPs, AUXs etc.
             for p in subpaths:
-                predicate = [t for t in p if t.pos_ in ['VERB']]
+                primary_predicates = list(reversed([t for t in p if t.pos_ in ['VERB']]))
+                secondary_predicates = list(reversed([t for t in p if t.pos_ in ['ADP', 'AUX']]))
+                predicate = primary_predicates + secondary_predicates
                 if len(predicate)>0:
-                    triples.append((p[0], predicate[-1], p[-1]))
+                    triples.append((p[0], predicate[0], p[-1]))
 
     triples = [(s, p, o) for (s, p, o) in triples if (s.text!=o.text)]
 
