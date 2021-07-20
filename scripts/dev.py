@@ -15,7 +15,7 @@ sys.path.append(root)
 
 # pylint: disable=import-error
 # from semantic_triples import get_triples
-from semtrip.semantic_triples import (get_triples, object_propagate_triples,
+from semnet.semantic_triples import (get_triples, object_propagate_triples,
                                       subject_propagate_triples)
 
 # Get Spacy language packages
@@ -69,7 +69,7 @@ docs = [nlp(s) for s in sentences]
 
 triples = []
 for sent in docs:
-    trips = get_triples(sent, subject_propagate=True, object_propagate=False)
+    trips = get_triples(sent, subject_propagate=True)
     triples.extend(trips)
 
 g = nx.DiGraph()
