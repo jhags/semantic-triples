@@ -155,9 +155,9 @@ def get_triples(doc, subject_propagate=True):
         subj_triples = subject_propagate_triples(doc)
         triples.extend(subj_triples)
 
-    if object_propagate:
-        obj_triples = object_propagate_triples(doc)
-        triples.extend(obj_triples)
+    # if object_propagate:
+    #     obj_triples = object_propagate_triples(doc)
+    #     triples.extend(obj_triples)
 
     triples = list(set(triples))
 

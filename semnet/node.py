@@ -29,9 +29,9 @@ class Node:
     def _get_text(self):
         if self._type=='span':
             if self._is_ent:
-                return ' '.join([t.text.lower() for t in self.span if t.pos_ not in ['DET']])
+                return ' '.join([t.text.lower() for t in self.span if t.pos_ not in ['DET', 'PUNCT']])
             elif self._is_ent is False:
-                return ' '.join([t.lemma_.lower() for t in self.span if t.pos_ not in ['DET']])
+                return ' '.join([t.lemma_.lower() for t in self.span if t.pos_ not in ['DET', 'PUNCT']])
 
         elif self._type=='token':
             if self._is_ent:
