@@ -1,6 +1,12 @@
 # semantic-triples
 Turn text into a network of semantic triples.
 
+## Install
+Since this isn't published on PyPI, install from the repo with:
+```python
+python -m pip install git+https://github.com/jhags/semantic-triples.git
+```
+
 ## Demo
 
 The following is a little demo on how to get started quick using text from wikipedia.
