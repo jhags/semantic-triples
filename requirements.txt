@@ -2,3 +2,4 @@ networkx
 nltk
 spacy
 tqdm
+pandas
