@@ -12,7 +12,8 @@ spacySpan = TypeVar('spacy.tokens.span.Span')
 
 def get_chunk(token):
     chunks = [c for c in token.doc.noun_chunks if token in c]
-    if len(chunks)==0: return token
+    if len(chunks)==0:
+        return token
     return chunks[0]
 
 def get_max_chunk(token):
