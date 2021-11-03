@@ -2,12 +2,12 @@
 from semnet import Semnet
 import wikipedia
 import spacy
-from tqdm import tqdm
-import pandas as pd
 
 page = wikipedia.page('COVID-19 pandemic')
 text = page.summary
 
+# Download spacy model using CLI
+# > python -m spacy download en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
 
 s = Semnet(text, nlp)
